@@ -8,7 +8,9 @@
 }
 
 body {
-	background: #161569;
+	background: linear-gradient(to bottom, #1abada, #0d14f3 );
+	background-size: 100%;
+	background-repeat: no-repeat;
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
 }
@@ -31,11 +33,17 @@ img{
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(27,51,133,1);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(27,51,133,1);
 	box-shadow: 10px 10px 5px 0px rgba(27,51,133,1);
+	transition: 1s;
+	
+}
+
+img:hover{
+	transform: scale(1.2);
 }
 
 .bienvenida{
 	width: 100%;
-	background: #2d3a54;
+	background:  #0d17f0 ;
 	text-align: center;
 	padding: 20px;
 	border-bottom: 1px solid #fff;
@@ -45,7 +53,7 @@ header{
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	background:#2d3a54;
+	background: #0d17f0 ;
 	margin-bottom: 20px;
 	border-bottom: 1px solid #fff;
 }
@@ -84,7 +92,7 @@ header{
 
 .tabla{
 	padding: 10px 10px;
-	background: #2d3a54;
+	background: #1adad4;
 	margin: auto;
 	margin-bottom: 15px;
 	transition: 1s;
@@ -105,7 +113,7 @@ header{
 .menu ul li:hover ul{
 	display: block;
 	position: absolute;
-	background:#2d3a54;
+	background: linear-gradient(to bottom, #0d14f3,  #1abada );
 	
 }
 
