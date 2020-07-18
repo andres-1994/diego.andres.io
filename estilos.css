@@ -120,3 +120,28 @@ header{
 .menu ul li:hover ul li a{
 	border-right: none;
 }
+
+h1{
+	color:white !important;
+	position: relative;
+}
+
+h1 span{
+	position: absolute;
+	right: 0;
+	width: 0;
+	background: #0d17f0 ;
+	/*border-left: 1px solid blue;*/
+
+	animation: maquina 5s infinite alternate steps(43);
+}
+
+@keyframes maquina{
+	from{
+		width: 100%;
+	}
+
+	to{
+		width: 0;
+	}
+}
