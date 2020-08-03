@@ -8,6 +8,9 @@
 	<title>Bienvenido a mi Pagina</title>
 </head>
 <body>
+	<div id="contenedor_carga">
+		<div id="carga"></div>
+	</div>
 	<div class="contenedor">
 		<div class="row">
 			<div class="bienvenida">
@@ -26,6 +29,9 @@
 								<li><a href="https://twitter.com/diego_benitez94" target="blank"><i class="fab fa-twitter"></i> Twitter</a></li>
 							</ul>
 						</li>
+						<li>
+							<a href="english.html"><img src="bandera.png" alt="traducir" title="translate" class="imagen2"></a>
+						</li>
 					</ul>
 				</nav>
 			</header>
@@ -33,7 +39,7 @@
 				<div class="cabecera">
 					<h2 class="espacio">Diego Andrés Benitez Mendoza</h2>
 					<p class="espacio">Diseño web - Desarrollador de Aplicaciones Web - Front End Developer</p>
-					<img class="espacio" src="diegobenitez.jpg" alt="mi-imagen" title="mi-imagen">
+					<img class="espacio imagen1" src="diegobenitez.jpg" alt="mi-imagen" title="mi-imagen">
 					<p class="espacio">Me encanta crear diseños web y proyectos que tengan un gran impacto y que sea de gran utilidad</p>
 					<p class="espacio">Mis Armas Secretas bueno no tan secretas son:</p>
 				</div>
@@ -66,5 +72,14 @@
 			</div>
 		</div>		
 	</div>
+<script>
+	window.onload = function(){
+
+		var contenedor = document.getElementById('contenedor_carga');
+
+		contenedor.style.visibility = 'hidden';
+		contenedor.style.opacity = '0';
+	}
+</script>
 </body>
 </html>
