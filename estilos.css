@@ -133,6 +133,10 @@ header{
 	background: rgba(0,0,0,0.3);
 }
 
+#inicio{
+	background: rgba(0,0,0,0.3);
+}
+
 .menu ul ul {
 	display: none;
 }
@@ -187,7 +191,6 @@ h1 span{
 	width: 0;
 	background: #0d17f0 ;
 	/*border-left: 1px solid blue;*/
-
 	animation: maquina 5s infinite alternate steps(43);
 }
 
